@@ -1,0 +1,88 @@
+ .animate-btn {
+	color:#000210;
+	position: relative;
+	display: block;
+	background: transparent;
+	transition: all 0.4s ease;
+	overflow: hidden;
+}
+
+.animate-btn:after {
+	content: '';
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	transition: all 0.7s ease 0s;
+}
+
+.thar1 {
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.thar1:hover{
+	background: transparent;
+	color: #fff !important;
+}
+
+.thar1:hover:before {
+	right: 0%;
+	left: auto;
+	width: 100%;
+}
+
+.thar1:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: "";
+	color: #fff !important;
+	background: #000210;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.victoria1:hover:after {
+	height: 450%;
+}
+
+.victoria1:after {
+	background: #000210;
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+.victoria2:hover:after {
+	height: 450%;
+}
+
+.victoria2:after {
+	background: #000210;
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+.gibson:after {
+	opacity: 0;
+	background-image: linear-gradient(transparent 50%,rgba(0,2,10,0.2) 50%);
+	background-size: 10px 10px;
+	transform: translateX(-50%) translateY(-50%) rotate(90deg);
+}
+
+.gibson:hover:after {
+	height: 600%;
+	opacity: 1;
+}
+
+.victoria4:hover:after {
+	height: 550%;
+}
+
+.victoria4:after {
+	background: #f5195c;
+	transform: translateX(-50%) translateY(-50%) rotate(90deg);
+	transition: all 0.5s ease 0s
+}

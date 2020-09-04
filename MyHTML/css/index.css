@@ -1,0 +1,73 @@
+.home-about {
+	height: 800px;
+}
+
+.about-content {
+	float: left;
+	width: 50%;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+.about-name {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.about-name p {
+	font-size: 54px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.about-text {
+	padding-top: 0px;
+	display: none;
+}
+
+.text-select {
+	display: block;
+}
+
+.about-text p {
+	font-size: 16px;
+	padding-right: 50px;
+	color: #464545;
+	line-height: 25px;
+	text-indent: 32px;
+}
+
+.about-menu {
+	float: left;
+	width: 50%;
+	height: 800px;
+}
+
+.about-menu .wrapper {
+	height: 160px;
+	margin-top: 200px;
+	box-sizing: border-box;
+}
+
+.about-menu a {	
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 45px;
+	font-size: 30px;
+	color: #000210;
+	text-align: center;
+	line-height: 70px;
+	text-transform: uppercase;
+	z-index: 0;
+}
+
+.about-btn {
+	width: 240px;
+	height: 70px;
+	border: 2px solid #000210;
+}
+
+.about-btn:hover {
+	color: #fff;
+	text-shadow: 1px 1px 5px #000; 
+}
